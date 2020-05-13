@@ -1,0 +1,188 @@
+
+:root{
+    --color-grey: #7c7c7c;
+    --color-bleu: #133747;
+    --color-orange: #fe7900;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1rem;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+
+.sécré h2{
+	margin-top: 2rem;
+	text-align: center;
+	font-size: 4rem;
+	font-weight: bold;
+	color: var(--color-bleu);
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.select{
+    margin-left: 1rem;
+}
+
+
+.select1{
+    height: 4rem;
+    width: 30rem;
+    border-radius: 4rem;
+    font-size: 1.7rem;
+    padding: 0 1rem;
+    outline: none;
+}
+
+.select2{
+    height: 4rem;
+    width: 15rem;
+    border-radius: 4rem;
+    font-size: 1.7rem;
+    padding: 0 1rem;
+    outline: none;
+}
+
+
+.btn{
+    padding: 0.7rem 4rem;
+    font-size: 1.5rem;
+    border-radius: 4rem;
+    color: white;
+    background-color: var(--color-orange);
+    outline: none;
+    margin-left: 1rem;
+    margin-top: -1rem;
+    font-weight: bold;
+}
+
+.border{
+    margin-top: 3rem;
+    background-color: #ccc;
+    height: 1px;
+}
+/************************images**********************/
+.illus{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background-image: url(../images/pexels-photo-3681653.jpeg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.descrip{
+    margin-left: 1rem;
+}
+
+.descrip h4{
+    margin-top: 1rem;
+	font-size: 1.7rem;
+	font-weight: bold;
+	color: var(--color-bleu);   
+}
+
+.descrip p{
+    font-size: 1.4rem;  
+    margin-left: 1.4rem;
+}
+
+.descrip span{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-orange);
+}
+
+.btn1{
+    padding: 0.5rem 3.5rem;
+    font-size: 1.5rem;
+    border-radius: 4rem;
+    color: white;
+    background-color: var(--color-grey);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-left: .5rem;
+}
+
+.btn1:hover{
+    color: white;
+    background-color: var(--color-orange);
+}
+
+.pictures{
+    margin-top: 2rem;
+    display: flex;
+    justify-content:center ;
+}
+
+
+/*********************maps****************/
+
+/*-- Google Maps --*/
+.maps
+{
+    margin-top: 3rem;
+}
+
+iframe 
+{
+    width: 100%;
+}
+
+/*****************mediaquery**************************/
+
+@media screen and (max-width: 780px)
+{
+    .form{
+        display:initial;
+        justify-content: center;
+        padding-top: 2rem;
+    }
+
+    .select2{
+        height: 4rem;
+        width: 15rem;
+        border-radius: 4rem;
+        font-size: 1.7rem;
+        padding: 0 1rem;
+        outline: none;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 770px)
+{
+    .pictures{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+        transform: translateX(9rem);
+    }
+
+    .cercle1{
+        margin-bottom: 2rem;
+    }
+}
